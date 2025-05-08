@@ -25,18 +25,20 @@ An intelligent real estate assistant capable of searching for housing listings, 
 - Designed to support 1,000+ concurrent sessions
 
 ## 📷 Screenshots
-_(Insert 2–3 frontend screenshots here)_
+### 🔹 Chatbot Frontend UI
+![image](https://github.com/user-attachments/assets/b8afa153-ad64-4671-a8b0-6becc716f4da)
+### 🔹 Search Results Example
+![image](https://github.com/user-attachments/assets/35ca1de1-0ff3-4953-990c-1a4bfb70291e)
+### 🔹 COLLECT MORE INFORMATION TO FIND THE FINAL RESULT
+![image](https://github.com/user-attachments/assets/e09281ad-8815-4174-9836-05a7a4bd0d3a)
+
+![image](https://github.com/user-attachments/assets/37ce728b-0b23-4ab3-b928-a6c6db60a66e)
 
 ## 📦 How to Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app_frontend.py
 uvicorn app:app --reload
-
-![image](https://github.com/user-attachments/assets/b8afa153-ad64-4671-a8b0-6becc716f4da)
-![image](https://github.com/user-attachments/assets/35ca1de1-0ff3-4953-990c-1a4bfb70291e)
-![image](https://github.com/user-attachments/assets/e09281ad-8815-4174-9836-05a7a4bd0d3a)
-![image](https://github.com/user-attachments/assets/37ce728b-0b23-4ab3-b928-a6c6db60a66e)
 
 📡 Deployment
 Backend: Deployed on Google Cloud Run
